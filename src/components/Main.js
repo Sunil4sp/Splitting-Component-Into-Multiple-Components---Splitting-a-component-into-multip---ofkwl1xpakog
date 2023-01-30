@@ -2,7 +2,10 @@ import React from "react";
 
 const Main = () =>{
     return(
-        <div id="main">Main Heading</div>
+        <>
+        <div id="main"></div>
+        <div id="content">Main Heading Content</div>
+        </>
     );
 }
 export default Main;
