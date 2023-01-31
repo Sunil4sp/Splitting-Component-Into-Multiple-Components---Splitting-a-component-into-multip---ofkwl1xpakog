@@ -1,11 +1,10 @@
 import React from "react";
 
-const Footer = () =>{
+const Footer = (props) =>{
     return(
-        <>
-        <div id="footer"></div>
-        <div id="content">Foot heading</div>
-        </>
+        <div id="footer">
+        <footer id={props.id}>{props.content}</footer>
+        </div>
     );
 }
 

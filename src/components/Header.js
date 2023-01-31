@@ -1,11 +1,10 @@
-import React, {useState} from "react";
+import React from "react";
 
 const Header =(props) =>{
     return(
-        <>
-        <div id="header"></div>
-        <div id="content">Heading Content</div>
-        </>
+        <div id="header">
+        <header id={props.id}>{props.content}</header>
+        </div>
     );
 }
 export default Header;

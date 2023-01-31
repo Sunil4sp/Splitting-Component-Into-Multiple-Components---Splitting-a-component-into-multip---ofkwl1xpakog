@@ -1,11 +1,10 @@
 import React from "react";
 
-const Main = () =>{
+const Main = (props) =>{
     return(
-        <>
-        <div id="main"></div>
-        <div id="content">Main Heading Content</div>
-        </>
+        <div id="main">
+        <main id={props.id}>{props.content}</main>
+        </div>
     );
 }
 export default Main;
